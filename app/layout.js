@@ -20,7 +20,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "The Bakehouse Code",
+  title: "The Artisan's Oven",
   description: "A premium Bakery",
 };
 

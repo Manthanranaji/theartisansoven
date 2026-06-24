@@ -26,7 +26,7 @@ export default function Home(){
 
       <div className="w-full min-h-screen mt-24 py-8 px-4 flex flex-col overflow-x-hidden">
         <h1 className="opacity-0 animate-fade-left text-[#B8C8B5] text-xl font-cormorant">
-          The <span className=" block text-7xl">Bakehouse</span> <span className="block text-4xl ml-[65%]">Code</span>
+          The <span className=" block text-7xl">Artisan's</span> <span className="block text-4xl ml-[65%]">Oven</span>
         </h1>
 
         <p className="font-dm opacity-0 animate-fade-up [animation-delay:0.6s] text-xs -mt-6 text-[#B8C8B5]/70 font-light ml-1 tracking-widest">Where every bite feels special</p>
@@ -40,10 +40,10 @@ export default function Home(){
         />
 
         <h2 className="opacity-0 animate-fade-left [animation-delay:0.7s] text-[10px] font-dm font-extralight font-black text-[#FAFAFA]/[0.3] -mt-32 ml-[50%] tracking-wider">
-          Custom Cakes · Gurugram
+          Artisan Bakery · India
         </h2>
 
-        <span className="text-[150px] font-black font-cormorant text-[#FFFFFF]/[0.02] -mt-44 -rotate-12 ml-[55%]">B</span>
+        <span className="text-[150px] font-black font-cormorant text-[#FFFFFF]/[0.02] -mt-44 -rotate-12 ml-[55%]">A</span>
 
 
         <div className="mt-10 flex gap-6">
@@ -74,47 +74,7 @@ export default function Home(){
 
       </section>
       
-      <section className="w-full h-fit py-8 px-4 mb-12">
-        <span ref={ref3} className="opacity-0 uppercase font-dm tracking-widest text-[#FAFAFA]/60">
-          Our Story
-        </span>
-        <h5 ref={ref4} className="opacity-0 text-[#B8C8B5] font-cormorant tracking-wider mt-4 font-light text-5xl">
-          Baking 
-        <span className="font-bold text-[#FFFFFF]/70"> Cakes </span> 
-        that carry meaning</h5>
-
-        <p ref={ref5} className="opacity-0 mt-6 font-dm text-[#FAFAFA]/60 text-sm leading-relaxed tracking-wider">
-          At The Bakehouse Code, every creation is a conversation. We believe the finest celebrations deserve desserts
-          that are as thoughtful as the moments they mark &mdash; baked fresh, crafted with precision, and designed
-          to leave an impression. <span ref={ref6} className="opacity-0 block mt-2">Using only the finest ingredients, our studio specialises in custom
-          cakes, artisanal brownies, tiramisu, and seasonal dessert &mdash; all 100% eggless, always made to order</span> 
-        </p>
       
-      </section>
-
-      <section className="w-full h-fit py-8 px-4 mb-12 bg-[#F2EDE4]">
-        <span ref={ref7} className="opacity-0 text-[#1A1A1A]/50 font-dm tracking-widest">Contact</span>
-        <h6 ref={ref8} className="opacity-0 font-cormorant tracking-wider text-[#1A1A1A]/80 text-4xl">Whether to Order or leave a hi:</h6>
-
-        <p ref={ref9} className="opacity-0 font-dm font-light mt-4 text-sm text-[#1A1A1A]/60 tracking-wider leading-relaxed">
-          We eagerly wait to hear from you. You can order below and reach us. All enquiries are answered within a few hours.
-        </p>
-
-        <div ref={ref10} className="opacity-0 flex gap-6 mt-6 text-[#2c4a3e] text-xl font-semibold underline decoration-1 font-cormorant">
-          <Link
-            href={"https://wa.me/+918448522155"}
-            target={"_blank"}
-            rel="noopener noreferrer"
-          >WhatsApp →</Link>
-          <Link
-            href={"https://instagram.com/thebakehousecode"}
-            target={"_blank"}
-            rel="noopener noreferrer"
-          >Instagram →</Link>
-        </div>
-
-      </section>
-
     </div>
   )
 }
