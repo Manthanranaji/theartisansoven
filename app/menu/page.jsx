@@ -96,7 +96,7 @@ export default function Menu() {
         </p>
 
         <a
-          href="https://instagram.com/thebakehousecode"
+          href="https://wa.me/919876634626"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block mt-10 border border-[#B8C8B5]/40 px-8 py-4 text-[#B8C8B5] hover:bg-[#B8C8B5] hover:text-[#2C4A4E] transition-all duration-300"

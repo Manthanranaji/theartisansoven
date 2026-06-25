@@ -48,7 +48,7 @@ export default function Home(){
 
         <div className="mt-10 flex gap-6">
         <Link
-          href={"/contact"}
+          href={"/menu"}
           className="opacity-0 animate-fade-left [animation-delay:1.1s] px-4 py-2 border border-[#B8C8B5]/70 w-fit text-[#FFFFFF]/70 font-dm tracking-wide text-sm shadow-sm"
         >
           Explore our Crafts
