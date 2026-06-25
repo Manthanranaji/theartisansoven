@@ -35,7 +35,7 @@ export default function NavBar(){
                 {/* Desktop links */}
                 <div className="hidden md:flex gap-8 text-white text-md font-dm">
                     <Link href="/" className="hover:text-white/70 transition-colors">Home</Link>
-                    <Link href="/contact" className="hover:text-white/70 transition-colors">Contact</Link>
+                    <Link href="/menu" className="hover:text-white/70 transition-colors">Menu</Link>
                     <Link href="/about" className="hover:text-white/70 transition-colors">About</Link>
                 </div>
 
@@ -56,7 +56,7 @@ export default function NavBar(){
             <div className={`md:hidden bg-[#2C4A4e]/70 font-dm backdrop-blur-md rounded-2xl transition-all duration-300 overflow-hidden ${open ? 'max-h-48' : 'max-h-0'}`}>
                 <div className="flex flex-col px-6 py-4 gap-4 text-white font-medium">
                     <Link href="/" onClick={() => setOpen(false)} className="">Home</Link>
-                    <Link href="/contact" onClick={() => setOpen(false)} className="">Contact</Link>
+                    <Link href="/menu" onClick={() => setOpen(false)} className="">Menu</Link>
                     <Link href="/about" onClick={() => setOpen(false)} className="">About</Link>
                 </div>
             </div>
